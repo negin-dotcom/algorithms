@@ -9,7 +9,7 @@ def merge_sort(array: list):
     return merge(left, right)
 
 
-def merge(l1: list, l2: list):
+def merge(l1: list, l2: list) -> list:
     i = j = 0
 
     worker_list = []
@@ -29,12 +29,13 @@ def merge(l1: list, l2: list):
     return worker_list
 
 
-a = [0, 5, 1, 9, 1, 4, 3, 7, 1]
+if __name__ == "__main__":
+    a = [0, 5, 1, 9, 1, 4, 3, 7, 1]
 
-result = merge_sort(a)
+    result = merge_sort(a)
 
-print(f"\n{'=' * 6} before {'=' * 6}")
-print(a)
+    print(f"\n{'=' * 6} before {'=' * 6}")
+    print(a)
 
-print(f"\n{'=' * 6} after {'=' * 6}")
-print(result, "\n")
+    print(f"\n{'=' * 6} after {'=' * 6}")
+    print(result, "\n")

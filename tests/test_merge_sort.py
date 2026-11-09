@@ -3,7 +3,7 @@ import unittest
 from my_algorithms.merge_sort_implementation import merge_sort
 
 
-class MargeSortTest(unittest.TestCase):
+class MergeSortTest(unittest.TestCase):
     def setUp(self):
         self.one_element_array = [10]
         self.two_element_array = [10, 5]
