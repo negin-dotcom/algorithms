@@ -1,4 +1,4 @@
-def merge_sort(array):
+def merge_sort(array: list):
     if len(array) <= 1:
         return array 
 
@@ -9,7 +9,7 @@ def merge_sort(array):
     return merge(left, right)
 
 
-def merge(l1: li, l2):
+def merge(l1: list, l2: list):
     i = j = 0
 
     worker_list = []
