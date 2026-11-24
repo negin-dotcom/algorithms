@@ -6,3 +6,4 @@
 - Selection Sort
 - Bubble Sort
 - Counting Sort
+- Quick Sort
