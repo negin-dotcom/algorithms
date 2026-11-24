@@ -13,10 +13,10 @@ def selection_sort(array):
 if __name__ == "__main__":
     a = [0, 5, 1, 9, 1, 4, 3, 7, 1]
 
-    result = selection_sort(a)
-
     print(f"\n{'=' * 6} before {'=' * 6}")
     print(a)
+
+    result = selection_sort(a)
 
     print(f"\n{'=' * 6} after {'=' * 6}")
     print(result, "\n")
