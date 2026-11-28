@@ -7,3 +7,7 @@
 - Bubble Sort
 - Counting Sort
 - Quick Sort
+
+## Data Structures 
+- Stack 
+- Queue
